@@ -1,0 +1,20 @@
+.row{
+  margin-left: 20px;
+  color: #fff;
+}
+
+.card{
+  display: flex;
+  padding: 20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.card::-webkit-scrollbar{
+  display: none;
+}
+
+.card-img{
+  max-height: 250PX;
+  margin-right: 10px;
+}

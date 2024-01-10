@@ -1,0 +1,31 @@
+.navbar{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    transition: background-color 0.3s ease;
+}
+
+.logo{
+    max-width: 92.5px;
+    height:25px ;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-right: 30px
+}
+
+.head-elements{
+    display: flex;
+    list-style: none;
+    padding-top: 25px;
+    gap: 10px;
+    color: #fff;
+}
+
+.head-element{
+    margin-left: 20px;
+}
+
+.scrolled {
+    background-color: #0c0c0c; 
+}
